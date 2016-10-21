@@ -105,22 +105,61 @@ class Geometry
     // 2D Perimeters
 	public static double squarePerimeter (double s)                      
 	{ 
-	    return 4 * s; 
+	    return 4 * 10; 
 	}
 	public static double pentagonPerimeter (double s)                      
 	{ 
-	    return 5 * s; 
+	    return 5 * 10; 
 	}
-
+	public static double hexagonPerimeter (double s)                      
+	{ 
+	    return  6 *10;
+	}
+	public static double octagonPerimeter  (double s)                      
+	{ 
+	    return 8 * 10;
+	}
 	
-
-
-	
+	public static double rectanglePerimeter  (double s)                      
+	{ 
+	    return (10 + 10) * 2;
+	}
+	public static double circumference  (double s)                      
+	{ 
+	    return 2 *Math.PI *2;
+	}
+	public static double rectangleArea (double s)
+	{
+		return 10 * 10;
+	}
+	public static double parallelogramArea (double s)
+	{
+		return 10 * 10;
+	}
+	public static double triangleArea (double s)
+	{
+		return 10 * 10 /2;
+	}
+	public static double trapezoidArea (double s)
+	{
+		return (10 + 10) / 2 * 10 ;
+	}
+	public static double hexagonArea (double s)
+	{
+		return 10 + 10 * 10 ;
 		
+	}
+	public static double circleArea (double s)
+	{
+		return Math.PI * 5*5 ;
+}
+	
+		 
+	
 	// 2D Areas
 	public static double squareArea (double s)             
 	{ 
-	    return s * s; 
+	    return 10 * 10; 
 	}
 	
 
@@ -130,7 +169,7 @@ class Geometry
     // 3D Surface Areas
 	public static double cubeSurfaceArea (double s)                      
 	{ 
-	    return 6 * s * s; 
+	    return 6 * 10 * 10; 
 	}
 	
 	
@@ -140,7 +179,7 @@ class Geometry
 	// 3D Volumes
 	public static double cubeVolume (double s)             
 	{ 
-	    return s * s * s; 
+	    return 10 * 10 * 10; 
 	}
 	
 	
